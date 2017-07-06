@@ -1,5 +1,5 @@
 # Robot-image
-Complete image for letsrobot
+Complete image for letsrobot.tv
 
 Raspbian Jessie with desktop  
 Version July 2017 Kernel 4.9
