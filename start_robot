@@ -1,0 +1,11 @@
+#!/bin/bash
+# suggested use for this:
+# (1) Put in the ids for your robot, YOURROBOTID and YOURCAMERAID
+# (2) use sudo to create a crontab entry: @reboot /bin/bash /home/pi/start_robot
+cd /home/pi/runmyrobot
+#v4l2-ctl -c brightness=128
+#v4l2-ctl -c contrast=40
+#v4l2-ctl -c saturation=40
+nohup scripts/repeat_start python controller.py RobotID 2 &> /dev/null &
+nohup scripts/repeat_start python send_video.py VideoID 0 &> /dev/null &
+nohup scripts/repeat_start python overlay.py --wifi &> /dev/null &
