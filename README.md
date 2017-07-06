@@ -1,6 +1,8 @@
 # Robot-image
 Complete image for letsrobot.tv
 
+Size 16gb
+
 Raspbian Jessie with desktop  
 Version July 2017 Kernel 4.9
 
