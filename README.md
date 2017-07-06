@@ -1,7 +1,7 @@
 # Robot-image
 Complete image for letsrobot.tv
 
-Size 16gb
+Uncompressed just over 15gb
 
 Raspbian Jessie with desktop  
 Version July 2017 Kernel 4.9
@@ -19,6 +19,7 @@ Burn image to SD card
 Boot device, Connect to device either locally or SSH
 change password (default raspberry)  passwd
 Connect to wifi
+edit and copy over start_robot.   (current flags for wifi overlay enabled)
 
 
   
