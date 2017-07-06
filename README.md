@@ -15,6 +15,7 @@ Credit: LetsRobot.tv/runmyrobot.com,
         R3n33 https://gist.github.com/r3n33/acaa8110c9c11b2a7d865e62ef29a320,  
         Mikey https://github.com/Th3M1k3y/runmyrobot
 
+download all 3 7zip files, Then uncompress
 Burn image to SD card
 Boot device, Connect to device either locally or SSH
 change password (default raspberry)  passwd
