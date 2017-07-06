@@ -4,6 +4,7 @@ Complete image for letsrobot.tv
 Raspbian Jessie with desktop  
 Version July 2017 Kernel 4.9
 
+Keyboard and WiFi set to US
 enabled:  SSH, I2C
 
 Installed:  updates, python-serial, python-dev, libgnutls28-dev, espeak, python-smbus, python-pip, git, gnutls-dev, (pip) socketIO-client, alsa, x264, FFmpeg w/overlay support, letsrobot (runmyrobot) Github,
@@ -14,5 +15,8 @@ Credit: LetsRobot.tv/runmyrobot.com,
 
 Burn image to SD card
 Boot device, Connect to device either locally or SSH
-Run sudo ./setup.sh
+change password (default raspberry)  passwd
+Connect to wifi
+
+
   
